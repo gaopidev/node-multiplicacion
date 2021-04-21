@@ -1,12 +1,10 @@
 const { crearArchivo } = require('./helpers/multiplicar');
+const argv = require('./config/yargs');
+const colors = require('colors');
+
 console.clear();
+// console.log( argv );
 
-// Obtener argumentos de la consola
-const [ ,,arg3='base=1' ] = process.argv;
-const [ , base=1 ] = arg3.split('=');
-console.log(arg3);
-console.log(base);
-
-crearArchivo( base )
+crearArchivo( argv.b, argv.l, argv.h )
     .then( nombreArchivo => console.log( nombreArchivo, 'creado' ) )
     .catch( err => console.log( err ) );

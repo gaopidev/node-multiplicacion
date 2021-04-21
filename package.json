@@ -1,0 +1,26 @@
+{
+  "name": "bases_node",
+  "version": "0.0.1",
+  "description": "La aplicacion funciona cambiando una constante en el codigo que corresponde con la base de la multiplicacion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaopidev/node-multiplicacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaopidev/node-multiplicacion/issues"
+  },
+  "homepage": "https://github.com/gaopidev/node-multiplicacion#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
